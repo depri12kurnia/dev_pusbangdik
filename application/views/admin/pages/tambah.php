@@ -77,10 +77,10 @@ echo form_open_multipart(base_url('admin/pages/tambah'));
             <select name="jenis_pages" class="form-control">
                 <option value="">- Pilih Jenis Pages -</option>
                 <option value="Profil">Profil</option>
-                <option value="Pendidikan">Pendidikan</option>
-                <option value="Alumni">Alumni</option>
-                <option value="Layanan">Layanan</option>
-                <option value="spi">SPI</option>
+                <option value="Pelatihan">Pelatihan</option>
+                <option value="Program">Program</option>
+                <option value="PUI-PK">PUI-PK</option>
+                <option value="Fasilitas">Fasilitas</option>
             </select>
 
         </div>

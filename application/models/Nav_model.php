@@ -126,13 +126,27 @@ class Nav_model extends CI_Model
 		return $query->result();
 	}
 
-	// Navigasi Layanan
-	public function nav_layanan()
+	// Navigasi PUI
+	public function nav_pui()
 	{
 		$this->db->select('*');
 		$this->db->from('pages');
 		$this->db->where(array(
-			'jenis_pages'	=> 'Layanan',
+			'jenis_pages'	=> 'PUI-PK',
+			'status_pages'	=> 'Publish'
+		));
+		$this->db->order_by('judul_pages', 'ASC');
+		$query = $this->db->get();
+		return $query->result();
+	}
+
+	// Navigasi Pelayanan
+	public function nav_pelayanan()
+	{
+		$this->db->select('*');
+		$this->db->from('pages');
+		$this->db->where(array(
+			'jenis_pages'	=> 'Pelayanan',
 			'status_pages'	=> 'Publish'
 		));
 		$this->db->order_by('judul_pages', 'ASC');
