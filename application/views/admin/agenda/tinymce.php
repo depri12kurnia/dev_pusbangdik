@@ -23,37 +23,82 @@
 
 		image_advtab: true,
 
-		style_formats: [
-			{title: 'Bold text', format: 'h1'},
-			{title: 'Red text', inline: 'span', styles: {color: '#ff0000'}},
-			{title: 'Red header', block: 'h1', styles: {color: '#ff0000'}},
-			{title: 'Example 1', inline: 'span', classes: 'example1'},
-			{title: 'Example 2', inline: 'span', classes: 'example2'},
-			{title: 'Table styles'},
-			{title: 'Table row 1', selector: 'tr', classes: 'tablerow1'}
+		style_formats: [{
+				title: 'Bold text',
+				format: 'h1'
+			},
+			{
+				title: 'Red text',
+				inline: 'span',
+				styles: {
+					color: '#ff0000'
+				}
+			},
+			{
+				title: 'Red header',
+				block: 'h1',
+				styles: {
+					color: '#ff0000'
+				}
+			},
+			{
+				title: 'Example 1',
+				inline: 'span',
+				classes: 'example1'
+			},
+			{
+				title: 'Example 2',
+				inline: 'span',
+				classes: 'example2'
+			},
+			{
+				title: 'Table styles'
+			},
+			{
+				title: 'Table row 1',
+				selector: 'tr',
+				classes: 'tablerow1'
+			}
 		],
 
-		template_replace_values : {
-			username : "Jack Black"
+		template_replace_values: {
+			username: "Jack Black"
 		},
 
-		template_preview_replace_values : {
-			username : "Preview user name"
+		template_preview_replace_values: {
+			username: "Preview user name"
 		},
 
-		link_class_list: [
-			{title: 'Example 1', value: 'example1'},
-			{title: 'Example 2', value: 'example2'}
+		link_class_list: [{
+				title: 'Example 1',
+				value: 'example1'
+			},
+			{
+				title: 'Example 2',
+				value: 'example2'
+			}
 		],
 
-		image_class_list: [
-			{title: 'Example 1', value: 'example1'},
-			{title: 'Example 2', value: 'example2'}
+		image_class_list: [{
+				title: 'Example 1',
+				value: 'example1'
+			},
+			{
+				title: 'Example 2',
+				value: 'example2'
+			}
 		],
 
-		templates: [
-			{title: 'Some title 1', description: 'Some desc 1', content: '<strong class="red">My content: {$username}</strong>'},
-			{title: 'Some title 2', description: 'Some desc 2', url: 'development.html'}
+		templates: [{
+				title: 'Some title 1',
+				description: 'Some desc 1',
+				content: '<strong class="red">My content: {$username}</strong>'
+			},
+			{
+				title: 'Some title 2',
+				description: 'Some desc 2',
+				url: 'development.html'
+			}
 		],
 
 		setup: function(ed) {
@@ -74,7 +119,10 @@
 					suggestions[words[i]] = ["First", "second"];
 				}
 
-				success({words: suggestions, dictionary: true});
+				success({
+					words: suggestions,
+					dictionary: true
+				});
 			}
 
 			if (method == "addToDictionary") {
@@ -82,5 +130,5 @@
 			}
 		}
 	});
-</script>    	
+</script>
 <!-- END TINYMCE -->

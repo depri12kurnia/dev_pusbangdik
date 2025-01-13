@@ -23,40 +23,40 @@ $site_info = $this->konfigurasi_model->listing();
     <!--[if IE]> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Plugin css -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/tema/assets/css/animate.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/css/animate.css" />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/tema/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/css/bootstrap.min.css" />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/tema/assets/css/flexslider.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/css/flexslider.css" />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/tema/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/tema/assets/css/jquery.nstSlider.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/css/jquery.nstSlider.css" />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/tema/assets/css/lightcase.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/css/lightcase.css" />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/tema/assets/fonts/flaticon.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/fonts/flaticon.css" />
 
 
     <!-- own style css -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/tema/assets/css/style.css" media="all" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/css/style.css" media="all" />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/tema/assets/css/rtl.css" media="all" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/css/rtl.css" media="all" />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/tema/assets/css/responsive.css" media="all" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/css/responsive.css" media="all" />
     <!-- end own style css -->
 
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/tema/assets/css/swiper.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/css/swiper.min.css" />
 
     <!-- DataTables CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/admin/plugins/datatables/dataTables.bootstrap4.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsadminlte3.2.0@c4cd9975aa7ae3113ef356aed8e37f56b126d3d6/plugins/datatables-bs4/css/dataTables.bootstrap4.css">
     <!-- Select2 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/admin/plugins/select2/select2.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsadminlte3.2.0@c4cd9975aa7ae3113ef356aed8e37f56b126d3d6/plugins/select2/css/select2.min.css">
     <!-- dflip StyleSheet -->
-    <link href="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/dflip/css/dflip.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/dflip/css/dflip.min.css" rel="stylesheet">
     <!-- dflip Icons Stylesheet -->
-    <link href="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/dflip/css/themify-icons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/dflip/css/themify-icons.min.css" rel="stylesheet">
 
     <!-- Recaptcha Google -->
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
@@ -102,7 +102,7 @@ $site_info = $this->konfigurasi_model->listing();
 
 <!-- google analytic -->
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-77QD9RNNKJ"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-77QD9RNNKJ"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -114,7 +114,7 @@ $site_info = $this->konfigurasi_model->listing();
     gtag('config', 'G-77QD9RNNKJ', {
         'debug_mode': true
     });
-</script>
+</script> -->
 <!-- end google analytic -->
 
 
@@ -133,21 +133,21 @@ $site_info = $this->konfigurasi_model->listing();
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <!--Klik kanan-->
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         document.addEventListener('contextmenu', function(e) {
             e.preventDefault();
         }, false);
 
-        // Menonaktifkan pintasan keyboard tertentu
+       
         document.addEventListener('keydown', function(e) {
-            // Disable F12 key
+           
             if (e.key === 'F12') {
                 e.preventDefault();
             }
 
-            // Disable Ctrl+Shift+I (DevTools), Ctrl+U (View Source), Ctrl+Shift+J (Console)
+           
             if (e.ctrlKey && (e.shiftKey && (e.key === 'I' || e.key === 'J')) || e.key === 'U') {
                 e.preventDefault();
             }
         }, false);
-    </script>
+    </script> -->

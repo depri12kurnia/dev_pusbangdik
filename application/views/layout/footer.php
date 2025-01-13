@@ -125,47 +125,47 @@ $nav_pengumuman = $this->nav_model->nav_pengumuman();
 </div>
 
 <!-- Flipbook main Js file -->
-<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/dflip/js/libs/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/dflip/js/libs/jquery.min.js"></script>
 
-<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/dflip/js/dflip.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/dflip/js/dflip.min.js"></script>
 
 <!--Assets-->
 
-<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/tema/assets/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/js/bootstrap.min.js"></script>
 
-<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/tema/assets/js/jquery.easing.1.3.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/js/jquery.easing.1.3.js"></script>
 
-<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/tema/assets/js/jquery.waypoints.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/js/jquery.waypoints.min.js"></script>
 
-<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/tema/assets/js/jquery.counterup.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/js/jquery.counterup.min.js"></script>
 
-<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/tema/assets/js/swiper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/js/swiper.min.js"></script>
 
-<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/tema/assets/js/lightcase.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/js/lightcase.js"></script>
 
-<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/tema/assets/js/jquery.nstSlider.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/js/jquery.nstSlider.js"></script>
 
-<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/tema/assets/js/jquery.flexslider.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/js/jquery.flexslider.js"></script>
 
-<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/tema/assets/js/custom.map.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/js/custom.map.js"></script>
 
-<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/tema/assets/js/plugins.isotope.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/js/plugins.isotope.js"></script>
 
-<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/tema/assets/js/isotope.pkgd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/js/isotope.pkgd.min.js"></script>
 
-<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/tema/assets/js/custom.isotope.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/js/custom.isotope.js"></script>
 
-<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/tema/assets/js/custom.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/js/custom.js"></script>
 
 <!-- Lazysizes -->
 <script src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js" integrity="sha256-PZEg+mIdptYTwWmLcBTsa99GIDZujyt7VHBZ9Lb2Jys=" crossorigin="anonymous"></script>
 
 <!-- Select2 -->
-<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/admin/plugins/select2/select2.full.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsadminlte3.2.0@c4cd9975aa7ae3113ef356aed8e37f56b126d3d6/plugins/select2/js/select2.full.min.js"></script>
 
 <!-- DataTables JS -->
-<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/admin/plugins/datatables/jquery.dataTables.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/Assets-Jakarta-3@9b51dd849241b9d6346f1e839c7d5f93b0a97cfc/admin/plugins/datatables/dataTables.bootstrap4.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsadminlte3.2.0@c4cd9975aa7ae3113ef356aed8e37f56b126d3d6/plugins/datatables/jquery.dataTables.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsadminlte3.2.0@c4cd9975aa7ae3113ef356aed8e37f56b126d3d6/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
 
 <!--pdfobject-->
 <script src="https://unpkg.com/pdfobject"></script>
