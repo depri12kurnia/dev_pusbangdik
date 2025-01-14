@@ -30,7 +30,7 @@ echo form_open(base_url('admin/staff/proses'));
 </div>
 </p>
 <div class="table-responsive mailbox-messages">
-    <table id="example" class="display table table-bordered table-hover" cellspacing="0" width="100%">
+    <table id="dataTable" class="display table table-bordered table-hover" cellspacing="0" width="100%">
         <thead>
             <tr>
                 <th width="5%">
@@ -50,34 +50,36 @@ echo form_open(base_url('admin/staff/proses'));
         </thead>
         <tbody>
 
-            <?php 
-  // Looping data user dg foreach
-  $i=1;
-  foreach($staff as $staff) {
-  ?>
+            <?php
+            // Looping data user dg foreach
+            $i = 1;
+            foreach ($staff as $staff) {
+            ?>
 
-            <tr>
-                <td class="text-center">
-                    <input type="checkbox" name="id_staff[]" value="<?php echo $staff->id_staff ?>">
-                </td>
-                <td><?php echo $staff->nama ?><br>
-                    <small>Email: <?php echo $staff->email ?></small>
-                </td>
-                <td><?php echo $staff->jabatan ?></td>
-                <td><?php echo $staff->status_staff ?></td>
-                <td><?php echo $staff->urutan ?></td>
-                <td>
-                    <div class="btn-group">
-                        <a href="<?php echo base_url('admin/staff/edit/'.$staff->id_staff) ?>"
-                            class="btn btn-warning btn-sm"><i class="fa fa-edit"></i> Edit</a>
-                        <a href="<?php echo base_url('admin/staff/delete/'.$staff->id_staff) ?>"
-                            class="btn btn-danger btn-sm" onclick="confirmation(event)"><i class="fa fa-trash-o"></i>
-                            Hapus</a>
-                    </div>
-                </td>
-            </tr>
+                <tr>
+                    <td class="text-center">
+                        <input type="checkbox" name="id_staff[]" value="<?php echo $staff->id_staff ?>">
+                    </td>
+                    <td><?php echo $staff->nama ?><br>
+                        <small>Email: <?php echo $staff->email ?></small>
+                    </td>
+                    <td><?php echo $staff->jabatan ?></td>
+                    <td><?php echo $staff->status_staff ?></td>
+                    <td><?php echo $staff->urutan ?></td>
+                    <td>
+                        <div class="btn-group">
+                            <a href="<?php echo base_url('admin/staff/edit/' . $staff->id_staff) ?>"
+                                class="btn btn-warning btn-sm"><i class="fa fa-edit"></i> Edit</a>
+                            <a href="<?php echo base_url('admin/staff/delete/' . $staff->id_staff) ?>"
+                                class="btn btn-danger btn-sm" onclick="confirmation(event)"><i class="fa fa-trash-o"></i>
+                                Hapus</a>
+                        </div>
+                    </td>
+                </tr>
 
-            <?php $i++; } //End looping ?>
+            <?php $i++;
+            } //End looping 
+            ?>
         </tbody>
     </table>
 </div>

@@ -1,12 +1,12 @@
 <?php
 // Session 
-if($this->session->flashdata('sukses')) { 
-	echo '<div class="alert alert-success  alert-dismissible"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>';
-	echo $this->session->flashdata('sukses');
-	echo '</div>';
-} 
+if ($this->session->flashdata('sukses')) {
+    echo '<div class="alert alert-success  alert-dismissible"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>';
+    echo $this->session->flashdata('sukses');
+    echo '</div>';
+}
 // Error
-echo validation_errors('<div class="alert alert-success  alert-dismissible"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a><div class="alert alert-success">','</div></div>'); 
+echo validation_errors('<div class="alert alert-success  alert-dismissible"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a><div class="alert alert-success">', '</div></div>');
 ?>
 
 <?php echo form_open(base_url('admin/konfigurasi')) ?>
@@ -139,10 +139,10 @@ echo validation_errors('<div class="alert alert-success  alert-dismissible"><a h
 
         <div class="form-group map">
             <style type="text/css" media="screen">
-            iframe {
-                width: 100%;
-                max-height: 200px;
-            }
+                iframe {
+                    width: 100%;
+                    max-height: 200px;
+                }
             </style>
             <?php echo $site->google_map ?>
 

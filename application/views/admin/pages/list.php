@@ -26,7 +26,7 @@ echo form_open(base_url('admin/pages/proses'));
     <?php } ?>
 </p>
 <div class="table-responsive mailbox-messages">
-    <table id="example1" class="display table table-bordered table-hover" cellspacing="0" width="100%">
+    <table id="dataTable" class="display table table-bordered table-hover" cellspacing="0" width="100%">
         <thead>
             <tr>
                 <th width="5%">
@@ -94,7 +94,7 @@ echo form_open(base_url('admin/pages/proses'));
                     </td>
                     <td>
                         <div class="btn-group">
-                            <a href="<?php echo base_url('pages/'. $pages->jenis_pages . '/' . $pages->slug_pages) ?>" class="btn btn-success btn-xs" target="_blank"><i class="fa fa-eye"></i></a>
+                            <a href="<?php echo base_url('pages/' . $pages->jenis_pages . '/' . $pages->slug_pages) ?>" class="btn btn-success btn-xs" target="_blank"><i class="fa fa-eye"></i></a>
 
                             <a href="<?php echo base_url('admin/pages/edit/' . $pages->id_pages) ?>" class="btn btn-warning btn-xs"><i class="fa fa-edit"></i></a>
 

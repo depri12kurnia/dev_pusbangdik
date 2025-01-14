@@ -4,7 +4,7 @@
 
 
 
-<table class="table table-bordered table-hover table-striped" id="example1">
+<table class="table table-bordered table-hover table-striped" id="dataTable">
   <thead class="bordered-darkorange">
     <tr>
       <th>#</th>

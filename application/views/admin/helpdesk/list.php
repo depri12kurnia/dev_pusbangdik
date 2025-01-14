@@ -10,39 +10,41 @@ echo form_open(base_url('admin/helpdesk/proses'));
     </button>
 
 </p>
-<table class="table table-bordered table-hover table-striped" id="example1">
-<thead class="bordered-darkorange">
-<tr>
-    <th width="5%">#</th>
-    <th>Pertanyaan</th>
-    <th>Jawaban</th>
-    <th>Kategori</th>
-    <th>Urutan</th>
-    <th>Action</th>
-</tr>
-</thead>
-<tbody>
+<table class="table table-bordered table-hover table-striped" id="dataTable">
+    <thead class="bordered-darkorange">
+        <tr>
+            <th width="5%">#</th>
+            <th>Pertanyaan</th>
+            <th>Jawaban</th>
+            <th>Kategori</th>
+            <th>Urutan</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
 
-<?php $i=1; foreach($helpdesk as $helpdesk) { ?>
+        <?php $i = 1;
+        foreach ($helpdesk as $helpdesk) { ?>
 
-<tr class="odd gradeX">
-    <td><?php echo $i ?></td>
-    <td><?php echo $helpdesk->pertanyaan ?></td>
-    <td><?php echo $helpdesk->jawaban ?></td>
-    <td><?php echo $helpdesk->nama_kategori_helpdesk ?></td>
-    <td><?php echo $helpdesk->urutan ?></td>
-    <td>
-      
-      <a href="<?php echo base_url('admin/helpdesk/edit/'.$helpdesk->id_helpdesk) ?>" 
-      class="btn btn-warning btn-xs"><i class="fa fa-edit"></i></a>
+            <tr class="odd gradeX">
+                <td><?php echo $i ?></td>
+                <td><?php echo $helpdesk->pertanyaan ?></td>
+                <td><?php echo $helpdesk->jawaban ?></td>
+                <td><?php echo $helpdesk->nama_kategori_helpdesk ?></td>
+                <td><?php echo $helpdesk->urutan ?></td>
+                <td>
 
-      <a href="<?php echo base_url('admin/helpdesk/delete/'.$helpdesk->id_helpdesk) ?>" 
-      class="btn btn-danger btn-xs " onclick="confirmation(event)"><i class="fa fa-trash-o"></i></a>
+                    <a href="<?php echo base_url('admin/helpdesk/edit/' . $helpdesk->id_helpdesk) ?>"
+                        class="btn btn-warning btn-xs"><i class="fa fa-edit"></i></a>
 
-    </td>
-</tr>
+                    <a href="<?php echo base_url('admin/helpdesk/delete/' . $helpdesk->id_helpdesk) ?>"
+                        class="btn btn-danger btn-xs " onclick="confirmation(event)"><i class="fa fa-trash-o"></i></a>
 
-<?php $i++; } ?>
+                </td>
+            </tr>
 
-</tbody>
+        <?php $i++;
+        } ?>
+
+    </tbody>
 </table>

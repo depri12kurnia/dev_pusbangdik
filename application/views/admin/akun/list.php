@@ -3,10 +3,14 @@
 		<h4 class="alert alert-info">Update Profil Anda</h4>
 
 		<p class="text-center">
-			<img src="<?php if($user->gambar =="") { echo $this->website->icon(); }else{ echo base_url('assets/upload/user/thumbs/'.$user->gambar); } ?>" style="max-width: 150px; height: auto;" class="img img-circle img-thumbnail">
+			<img src="<?php if ($user->gambar == "") {
+							echo $this->website->icon();
+						} else {
+							echo base_url('assets/upload/user/thumbs/' . $user->gambar);
+						} ?>" style="max-width: 150px; height: auto;" class="img img-circle img-thumbnail">
 		</p>
 
-		<?php echo form_open_multipart(base_url('admin/akun'),'id="tambah"') ?>
+		<?php echo form_open_multipart(base_url('admin/akun'), 'id="tambah"') ?>
 
 		<div class="form-group row">
 			<label class="col-sm-3 control-label text-right">Nick name <span class="text-danger">*</span></label>
@@ -63,7 +67,7 @@
 
 
 
-		<?php echo form_open_multipart(base_url('admin/akun/password'),'id="tambah"') ?>
+		<?php echo form_open_multipart(base_url('admin/akun/password'), 'id="tambah"') ?>
 
 		<div class="form-group row">
 			<label class="col-sm-4 control-label text-right">Password baru <span class="text-danger">*</span></label>

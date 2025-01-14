@@ -6,17 +6,6 @@ echo form_open(base_url('admin/berita/proses'));
     <a href="<?php echo base_url('admin/berita/tambah') ?>" class="btn btn-success btn-lg">
         <i class="fa fa-plus"></i> Tambah Berita</a>
 
-    <button class="btn btn-warning" type="submit" name="draft" onClick="check();">
-        <i class="fa fa-times"></i> Jangan Publikasikan
-    </button>
-
-    <button class="btn btn-primary" type="submit" name="publish" onClick="check();">
-        <i class="fa fa-check"></i> Publikasikan
-    </button>
-
-    <button class="btn btn-danger" type="submit" name="hapus" onClick="check();">
-        <i class="fa fa-trash-o"></i> Hapus
-    </button>
     <?php
     $url_navigasi = $this->uri->segment(2);
     if ($this->uri->segment(3) != "") {
@@ -26,16 +15,10 @@ echo form_open(base_url('admin/berita/proses'));
     <?php } ?>
 </p>
 <div class="table-responsive mailbox-messages">
-    <table id="example1" class="display table table-bordered table-hover" cellspacing="0" width="100%">
+    <table id="dataTable" class="display table table-bordered table-hover" cellspacing="0" width="100%">
         <thead>
             <tr>
-                <th width="5%">
-                    <div class="mailbox-controls">
-                        <!-- Check all button -->
-                        <button type="button" class="btn btn-default btn-xs checkbox-toggle"><i class="fa fa-square-o"></i>
-                        </button>
-                    </div>
-                </th>
+                <th width="5%">No</th>
                 <th width="10%">GAMBAR</th>
                 <th width="35%">JUDUL</th>
                 <th width="15%">KATEGORI</th>
@@ -51,13 +34,7 @@ echo form_open(base_url('admin/berita/proses'));
             foreach ($berita as $berita) { ?>
 
                 <tr class="odd gradeX">
-                    <td>
-                        <div class="mailbox-star text-center">
-                            <div class="text-center">
-                                <input type="checkbox" class="icheckbox_flat-blue " name="id_berita[]" value="<?php echo $berita->id_berita ?>">
-                                <span class="checkmark"></span>
-                            </div>
-                    </td>
+                    <td><?php echo $i ?></td>
                     <td>
                         <?php if ($berita->gambar != "") { ?>
                             <img src="<?php echo base_url('assets/upload/image/thumbs/' . $berita->gambar) ?>" class="img img-thumbnail img-responsive" width="60">
@@ -104,7 +81,7 @@ echo form_open(base_url('admin/berita/proses'));
 
                             <a href="<?php echo base_url('admin/berita/edit/' . $berita->id_berita) ?>" class="btn btn-warning btn-xs"><i class="fa fa-edit"></i></a>
 
-                            <a href="<?php echo base_url('admin/berita/delete/' . $berita->id_berita) ?>" class="btn btn-danger btn-xs" onclick="confirmation(event)"><i class="fa fa-trash-o"></i></a>
+                            <a href="<?php echo base_url('admin/berita/delete/' . $berita->id_berita) ?>" class="btn btn-danger btn-xs" onclick="confirmation(event)"><i class="fa fa-trash"></i></a>
                         </div>
                     </td>
                 </tr>

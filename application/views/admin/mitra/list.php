@@ -26,7 +26,7 @@ echo form_open(base_url('admin/mitra/proses'));
     <?php } ?>
 </p>
 <div class="table-responsive mailbox-messages">
-    <table id="example1" class="display table table-bordered table-hover" cellspacing="0" width="100%">
+    <table id="dataTable" class="display table table-bordered table-hover" cellspacing="0" width="100%">
         <thead>
             <tr>
                 <th width="5%">

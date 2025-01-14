@@ -15,7 +15,7 @@ echo form_open(base_url('admin/user/proses'));
 </p>
 
 <div class="table-responsive mailbox-messages">
-  <table id="example1" class="table table-bordered table-striped">
+  <table id="dataTable" class="table table-bordered table-striped">
     <thead>
       <tr>
         <th class="text-center" width="5%">

@@ -1,7 +1,7 @@
 <p>
   <?php include('tambah.php') ?>
 </p>
-<table class="table table-striped table-bordered table-hover" id="example1">
+<table class="table table-striped table-bordered table-hover" id="dataTable">
   <thead>
     <tr>
       <th>#</th>

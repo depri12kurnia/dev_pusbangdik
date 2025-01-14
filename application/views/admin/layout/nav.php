@@ -1,5 +1,5 @@
 <!-- Main Sidebar Container -->
-<aside class="main-sidebar sidebar-dark-primary elevation-4">
+<aside class="main-sidebar main-sidebar-custom sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="<?php echo base_url('admin/dasbor') ?>" class="brand-link">
         <img src="<?php echo $this->website->icon() ?>" alt="<?php echo $this->website->namaweb(); ?>" class="brand-image img-circle elevation-3" style="opacity: .8">
@@ -33,7 +33,7 @@
                 <!-- DASBOR -->
                 <li class="nav-item">
                     <a href="<?php echo base_url('admin/dasbor') ?>" class="nav-link">
-                        <i class="nav-icon fa fa-dashboard"></i>
+                        <i class="nav-icon fa fa-tachometer" aria-hidden="true"></i>
                         <p>
                             DASHBOARD
                         </p>

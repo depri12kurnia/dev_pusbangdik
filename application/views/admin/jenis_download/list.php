@@ -1,10 +1,10 @@
 <p>
-    <?php include 'tambah.php'?>
+    <?php include 'tambah.php' ?>
 </p>
 
 
 
-<table class="table table-striped table-bordered table-hover" id="example1">
+<table class="table table-striped table-bordered table-hover" id="dataTable">
     <thead>
         <tr>
             <th>#</th>
@@ -17,25 +17,27 @@
     </thead>
     <tbody>
 
-        <?php $i = 1;foreach ($jenis_download as $jenis_download) {?>
+        <?php $i = 1;
+        foreach ($jenis_download as $jenis_download) { ?>
 
-        <tr class="odd gradeX">
-            <td><?php echo $i ?></td>
-            <td><?php echo $jenis_download->nama_kategori_download ?></td>
-            <td><?php echo $jenis_download->nama_jenis_download ?></td>
-            <td><?php echo $jenis_download->slug_jenis_download ?></td>
-            <td><?php echo $jenis_download->urutan ?></td>
-            <td>
+            <tr class="odd gradeX">
+                <td><?php echo $i ?></td>
+                <td><?php echo $jenis_download->nama_kategori_download ?></td>
+                <td><?php echo $jenis_download->nama_jenis_download ?></td>
+                <td><?php echo $jenis_download->slug_jenis_download ?></td>
+                <td><?php echo $jenis_download->urutan ?></td>
+                <td>
 
-                <a href="<?php echo base_url('admin/jenis_download/edit/' . $jenis_download->id_jenis_download) ?>"
-                    class="btn btn-warning btn-xs"><i class="fa fa-edit"></i></a>
+                    <a href="<?php echo base_url('admin/jenis_download/edit/' . $jenis_download->id_jenis_download) ?>"
+                        class="btn btn-warning btn-xs"><i class="fa fa-edit"></i></a>
 
-                <?php include 'delete.php';?>
+                    <?php include 'delete.php'; ?>
 
-            </td>
-        </tr>
+                </td>
+            </tr>
 
-        <?php $i++;}?>
+        <?php $i++;
+        } ?>
 
     </tbody>
 </table>
