@@ -77,9 +77,25 @@ $nav_pengumuman = $this->nav_model->nav_pengumuman();
 
                                         </li>
                                     <?php } ?>
-                                    <a href='http://www.freevisitorcounters.com'></a>
-                                    <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=c6c594cc93cd8bc612306d0754d6919272499a48'></script>
-                                    <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1227720/t/1"></script>
+                                    <br>
+                                    <!-- Histats.com  (div with counter) -->
+                                    <!-- <div id="histats_counter"></div>
+                                    
+                                    <script type="text/javascript">
+                                        var _Hasync = _Hasync || [];
+                                        _Hasync.push(['Histats.start', '1,4926605,4,408,270,55,00011111']);
+                                        _Hasync.push(['Histats.fasi', '1']);
+                                        _Hasync.push(['Histats.track_hits', '']);
+                                        (function() {
+                                            var hs = document.createElement('script');
+                                            hs.type = 'text/javascript';
+                                            hs.async = true;
+                                            hs.src = ('//s10.histats.com/js15_as.js');
+                                            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+                                        })();
+                                    </script> -->
+                                    <noscript><a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?4926605&101" alt="free hit counter" border="0"></a></noscript>
+                                    <!-- Histats.com  END  -->
                                 </ul>
                             </div>
                         </div>
@@ -157,8 +173,8 @@ $nav_pengumuman = $this->nav_model->nav_pengumuman();
 
 <script src="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/js/custom.js"></script>
 
-<!-- Lazysizes -->
-<script src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js" integrity="sha256-PZEg+mIdptYTwWmLcBTsa99GIDZujyt7VHBZ9Lb2Jys=" crossorigin="anonymous"></script>
+<!-- Lazy Load -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.10/jquery.lazy.min.js"></script>
 
 <!-- Select2 -->
 <script src="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsadminlte3.2.0@c4cd9975aa7ae3113ef356aed8e37f56b126d3d6/plugins/select2/js/select2.full.min.js"></script>
@@ -167,8 +183,11 @@ $nav_pengumuman = $this->nav_model->nav_pengumuman();
 <script src="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsadminlte3.2.0@c4cd9975aa7ae3113ef356aed8e37f56b126d3d6/plugins/datatables/jquery.dataTables.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsadminlte3.2.0@c4cd9975aa7ae3113ef356aed8e37f56b126d3d6/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
 
-<!--pdfobject-->
-<script src="https://unpkg.com/pdfobject"></script>
+<script>
+    $(function() {
+        $('.lazy').Lazy();
+    });
+</script>
 
 <script>
     $(function() {

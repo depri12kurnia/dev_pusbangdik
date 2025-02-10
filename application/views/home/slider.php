@@ -16,31 +16,7 @@
                                             echo 'active';
                                         } ?>">
                         <div class="slider-item">
-                            <img src="<?php echo base_url('assets/upload/image/' . $slider->gambar); ?>" alt="bg-slider-2" class="lazyload">
-                            <div class="slider-content-area">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-6"></div>
-                                        <!-- .col-md-6 -->
-                                        <div class="col-md-6">
-                                            <div class="slider-content">
-                                                <!-- <h3><?php echo $site->namaweb ?></h3> -->
-                                                <h2><?php echo $slider->judul_galeri ?></h2>
-                                                <p><?php echo strip_tags($slider->isi) ?></p>
-                                                <div class="slider-btn">
-                                                    <a href="<?php echo $slider->website ?>" class="btn btn-default">Baca
-                                                        selengkapnya...</a>
-                                                </div>
-                                                <!-- .slider-btn -->
-                                            </div>
-                                            <!-- .carousel-caption -->
-                                        </div>
-                                        <!-- .col-md-6 -->
-                                    </div>
-                                    <!-- .row -->
-                                </div>
-                                <!-- .container -->
-                            </div>
+                            <img src="<?php echo base_url('assets/upload/image/' . $slider->gambar); ?>" alt="bg-slider-2" class="lazy">
                         </div>
                     </div>
                     <!-- .items -->

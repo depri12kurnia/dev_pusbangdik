@@ -12,12 +12,8 @@ $site_info = $this->konfigurasi_model->listing();
     <meta name="description" content="<?php echo strip_tags($site_info->tentang) . ', ' . $title ?>">
     <meta name="keywords" content="<?php echo $site_info->keywords . ', ' . $title  ?>">
     <meta name="author" content="<?php echo $site_info->namaweb ?>">
-    <meta name="keywords" content="poltekkes">
-    <meta name="keywords" content="poltekkes jakarta 3">
-    <meta name="keywords" content="poltekkes jakarta">
-    <meta name="keywords" content="jakarta 3">
-    <meta name="keywords" content="poltekkes 3">
-    <meta name="keywords" content="poltekkes jati">
+    <meta name="keywords" content="Pusbangdik">
+
     <!-- icon -->
     <link rel="shortcut icon" href="<?php echo $this->website->icon(); ?>">
     <!--[if IE]> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <![endif]-->
@@ -39,13 +35,12 @@ $site_info = $this->konfigurasi_model->listing();
 
 
     <!-- own style css -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/css/style.css" media="all" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@cb903e4f95a7c4f105db2f64d42df132b2ab37da/assets/css/style.css" media="all" />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/css/rtl.css" media="all" />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/css/responsive.css" media="all" />
     <!-- end own style css -->
-
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/assets/css/swiper.min.css" />
 
@@ -59,45 +54,15 @@ $site_info = $this->konfigurasi_model->listing();
     <link href="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsbangdik@a240a0fa9599076a824e827d9dd76645e83499e0/dflip/css/themify-icons.min.css" rel="stylesheet">
 
     <!-- Recaptcha Google -->
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
+    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
 
     <style type="text/css" media="screen">
         p {
             margin-bottom: 15px;
         }
     </style>
-
     <!-- Running Text On Modals Popup -->
-
-
 </head>
-
-<!-- GetButton.io widget -->
-<script type="text/javascript">
-    (function() {
-        var options = {
-            call: "+6281112021333", // Call phone number
-            whatsapp: "+6281113102256", // WhatsApp number
-            call_to_action: "Message us", // Call to action
-            button_color: "#FF6550", // Color of button
-            position: "left", // Position may be 'right' or 'left'
-            order: "call,whatsapp", // Order of buttons
-        };
-        var proto = 'https:',
-            host = "getbutton.io",
-            url = proto + '//static.' + host;
-        var s = document.createElement('script');
-        s.type = 'text/javascript';
-        s.async = true;
-        s.src = url + '/widget-send-button/js/init.js';
-        s.onload = function() {
-            WhWidgetSendButton.init(host, proto, options);
-        };
-        var x = document.getElementsByTagName('script')[0];
-        x.parentNode.insertBefore(s, x);
-    })();
-</script>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-S7LBLV45SG"></script>
@@ -112,22 +77,17 @@ $site_info = $this->konfigurasi_model->listing();
     gtag('config', 'G-S7LBLV45SG');
 </script>
 
-
 <body>
-    <!--Klik kanan-->
+    <!--Klik kanan dan Shortcut-->
     <!-- <script type="text/javascript">
         document.addEventListener('contextmenu', function(e) {
             e.preventDefault();
         }, false);
-
        
         document.addEventListener('keydown', function(e) {
-           
             if (e.key === 'F12') {
                 e.preventDefault();
             }
-
-           
             if (e.ctrlKey && (e.shiftKey && (e.key === 'I' || e.key === 'J')) || e.key === 'U') {
                 e.preventDefault();
             }
