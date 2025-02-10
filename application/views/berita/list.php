@@ -73,10 +73,6 @@
                                             <li><a href="<?php echo base_url('kategori/' . $kt->slug_kategori); ?>"><i class="fa fa-angle-double-right" aria-hidden="true"></i> <?php echo $kt->nama_kategori; ?> <span><?php echo $kt->total; ?></span></a></li>
                                         <?php } ?>
                                     </ul>
-                                    <div class="download-option">
-                                        <a href="https://jakarta3.pusilkom.com/" target="_blank" class="download-btn"><i class="fa fa-globe" aria-hidden="true"></i> Pendaftaran PMDP<span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
-                                        <a href="https://simama-poltekkes.kemkes.go.id/" target="_blank" class="download-btn"><i class="fa fa-globe" aria-hidden="true"></i> Pendaftaran SIMAMA<span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
-                                    </div>
                                 </div>
                                 <!-- .widget-content -->
                             </div>

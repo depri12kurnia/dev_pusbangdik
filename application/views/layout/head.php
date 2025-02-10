@@ -98,11 +98,9 @@ $site_info = $this->konfigurasi_model->listing();
         x.parentNode.insertBefore(s, x);
     })();
 </script>
-<!-- /GetButton.io widget -->
 
-<!-- google analytic -->
 <!-- Google tag (gtag.js) -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-77QD9RNNKJ"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S7LBLV45SG"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -111,27 +109,11 @@ $site_info = $this->konfigurasi_model->listing();
     }
     gtag('js', new Date());
 
-    gtag('config', 'G-77QD9RNNKJ', {
-        'debug_mode': true
-    });
-</script> -->
-<!-- end google analytic -->
+    gtag('config', 'G-S7LBLV45SG');
+</script>
 
 
 <body>
-    <div id="google_translate_element"></div>
-
-    <script type="text/javascript">
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement({
-                pageLanguage: 'id',
-                layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
-            }, 'google_translate_element');
-        }
-    </script>
-
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
     <!--Klik kanan-->
     <!-- <script type="text/javascript">
         document.addEventListener('contextmenu', function(e) {

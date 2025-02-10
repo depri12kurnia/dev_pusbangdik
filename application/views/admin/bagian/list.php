@@ -27,9 +27,7 @@ echo form_open(base_url('admin/bagian/proses'));
     <thead>
       <tr>
         <th class="text-center" width="5%">
-          <!-- Check all button -->
-          <button type="button" class="btn btn-default btn-sm checkbox-toggle"><i class="fa fa-square-o"></i>
-          </button>
+          No
         </th>
         <th>KODE</th>
         <th>NAMA</th>
@@ -48,7 +46,7 @@ echo form_open(base_url('admin/bagian/proses'));
 
         <tr>
           <td class="text-center">
-            <input type="checkbox" name="id_bagian[]" value="<?php echo $bagian->id_bagian ?>">
+            <?php echo $i ?>
           </td>
           <td><?php echo $bagian->kode_bagian ?></td>
           <td><?php echo $bagian->nama_bagian ?></td>

@@ -25,6 +25,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/depri12kurnia/assetsadminlte3.2.0@c4cd9975aa7ae3113ef356aed8e37f56b126d3d6/dist/css/adminlte.min.css">
   <!-- SWEETALERT -->
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/98f6d7e7ae.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">

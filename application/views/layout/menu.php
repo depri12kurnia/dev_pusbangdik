@@ -81,16 +81,7 @@ $nav_pui = $this->nav_model->nav_pui();
                                     <?php } ?>
                                 </ul>
                             </li>
-                            <!-- PUI-PK -->
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="padding-left: 6px; padding-right: 6px;">PUI-PK<span class="caret"></span></a>
-                                <ul class="dropdown-menu sub-menu">
-                                    <?php foreach ($nav_pui as $nav_pui) { ?>
-                                        <li><a href="<?php echo base_url('pages/pui-pk/' . $nav_pui->slug_pages) ?>"><i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                                                <?php echo $nav_pui->judul_pages ?></a></li>
-                                    <?php } ?>
-                                </ul>
-                            </li>
+
                             <!-- Galeri -->
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="padding-left: 6px; padding-right: 6px;">Galeri <span class="caret"></span></a>

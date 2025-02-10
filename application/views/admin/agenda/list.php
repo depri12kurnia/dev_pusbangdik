@@ -17,11 +17,7 @@ echo form_open(base_url('admin/agenda/proses'));
     <thead>
       <tr class="bg-info">
         <th width="5%">
-          <div class="mailbox-controls">
-            <!-- Check all button -->
-            <button type="button" class="btn btn-default btn-xs checkbox-toggle"><i class="fa fa-square-o"></i>
-            </button>
-          </div>
+          No
         </th>
         <th>Nama kegiatan</th>
         <th>Jenis</th>
@@ -36,11 +32,7 @@ echo form_open(base_url('admin/agenda/proses'));
       <?php foreach ($agenda as $row) { ?>
         <tr>
           <td>
-            <div class="mailbox-star text-center">
-              <div class="text-center">
-                <input type="checkbox" class="icheckbox_flat-blue " name="id_agenda[]" value="<?php echo $row['id_agenda'] ?>">
-                <span class="checkmark"></span>
-              </div>
+            <?php echo $i ?>
           </td>
           <td><?php echo $row['nama'] ?></td>
           <td><?php echo $row['jenis_agenda'] ?></td>
