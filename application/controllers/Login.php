@@ -11,8 +11,7 @@ class Login extends CI_Controller
 		$this->load->model('user_model');
 		$this->load->library('recaptcha');
 		$this->load->library('ip_blocker');
-        $this->ip_blocker->check_ip();
-
+		$this->ip_blocker->check_ip();
 	}
 
 	// Login page
@@ -41,7 +40,7 @@ class Login extends CI_Controller
 		}
 		// End validasi
 
-		$data = array('title'		=> 'Halaman Login');
+		$data = array('title'		=> 'Form Login');
 		$this->load->view('login/list', $data, FALSE);
 	}
 
